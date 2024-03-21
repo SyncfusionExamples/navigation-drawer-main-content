@@ -5,24 +5,24 @@ Essential NavigationDrawer for Xamarin.Forms is a simpler component to create na
 For know more details about NavigationDrawer: https://www.syncfusion.com/xamarin-ui-controls/xamarin-navigation-drawer
 
 NavigationDrawer user guide documentation: https://help.syncfusion.com/xamarin/navigation-drawer/getting-started
-# Adding SfNavigationDrawer reference
+## Adding SfNavigationDrawer reference
 You can add SfNavigationDrawer reference using one of the following methods:
 
-## Method 1: Adding SfNavigationDrawer reference from nuget.org
+### Method 1: Adding SfNavigationDrawer reference from nuget.org
 
 Syncfusion Xamarin components are available in nuget.org. To add SfNavigationDrawer to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Xamarin.SfNavigationDrawer, and then install it.
 
-## Method 2: Adding SfNavigationDrawer reference from toolbox
+### Method 2: Adding SfNavigationDrawer reference from toolbox
 
 Syncfusion also provides Xamarin Toolbox. Using this toolbox, you can drag the SfNavigationDrawer control to the XAML page. It will automatically install the required NuGet packages and add the namespace to the page. To install Syncfusion Xamarin Toolbox, refer to Toolbox.
 
-## Method 3: Adding SfNavigationDrawer assemblies manually from the installed location
+### Method 3: Adding SfNavigationDrawer assemblies manually from the installed location
 
 If you prefer to manually reference the assemblies instead referencing from NuGet, add the following assemblies in respective projects.
 
 Location: {Installed location}/{version}/Xamarin/lib
 
-# Initialize SfNavigationDrawer
+## Initialize SfNavigationDrawer
 Import the SfNavigationDrawer namespace in respective Page as shown below:
 
 **[XAML]**
@@ -61,7 +61,7 @@ public MainPage()
     this.Content = navigationDrawer
 }
 ```
-# Setting Main Content in Xamarin Navigation Drawer 
+## Setting Main Content in Xamarin Navigation Drawer 
 
 Main content of NavigationDrawer is always visible and it can be set using ContentView property. In the following code example, ContentView is switched when selection changes in ListView.
 
